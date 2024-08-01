@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthy Living</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/2.5.0/remixicon.min.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Healthy Living</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#benefits">Benefits</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="hero">
+        <h2>Your Journey to a Healthier Life Starts Here</h2>
+        <img src="https://images.pexels.com/photos/204686/pexels-photo-204686.jpeg" alt="Healthy Living Hero Image">
+        <button onclick="scrollToSection('about')">Learn More</button>
+        <!-- New Highlighted Heading Image -->
+        <div id="hero-image">
+            <h2 class="highlighted-heading">Featured Healthy Recipe</h2>
+            <img src="https://images.pexels.com/photos/793763/pexels-photo-793763.jpeg" alt="Featured Recipe">
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Healthy Living</h2>
+        <img src="https://images.unsplash.com/photo-1593642532400-2682810df593?ixid=MnwzNjUyOXwwfDF8c2VhcmNofDYxfG5hdHVyaXRpb258ZW58MHx8fDE2OTIyODk3OT&ixlib=rb-1.2.1&fit=crop&w=400&q=80" alt="About Healthy Living">
+        <p>Healthy Living is a comprehensive guide to help you achieve a balanced and healthy lifestyle through proper nutrition, exercise, and mental well-being.</p>
+    </section>
+
+    <section id="benefits">
+        <h2>Benefits of Healthy Living</h2>
+        <img src="https://images.pexels.com/photos/793763/pexels-photo-793763.jpeg" alt="Benefits of Healthy Living">
+        <ul>
+            <li>Improved physical health</li>
+            <li>Better mental clarity</li>
+            <li>Increased energy levels</li>
+            <li>Enhanced mood and well-being</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <img src="https://images.pexels.com/photos/326576/pexels-photo-326576.jpeg" alt="Contact Us">
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Healthy Living. All rights reserved.</p>
+        <div class="social-icons">
+            <a href="https://www.instagram.com" target="_blank" aria-label="Instagram">
+                <i class="ri-instagram-fill"></i>
+            </a>
+            <a href="https://www.whatsapp.com" target="_blank" aria-label="WhatsApp">
+                <i class="ri-whatsapp-line"></i>
+            </a>
+            <a href="https://www.facebook.com" target="_blank" aria-label="Facebook">
+                <i class="ri-facebook-circle-fill"></i>
+            </a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,116 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Hero Section Styles */
+#hero {
+    text-align: center;
+    padding: 2rem;
+}
+
+#hero img {
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+}
+
+#hero-image {
+    margin-top: 2rem;
+}
+
+#hero-image h2.highlighted-heading {
+    font-size: 2rem; /* Adjust size as needed */
+    color: #333;
+    padding: 0.5rem;
+    background-color: #f0f0f0; /* Highlight background */
+    border-radius: 0.5rem;
+}
+
+#hero-image img {
+    width: 100%;
+    max-width: 400px; /* Match size with About section image */
+    height: auto;
+}
+
+/* About Section Styles */
+#about {
+    text-align: center;
+    padding: 2rem;
+}
+
+#about img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+/* Benefits Section Styles */
+#benefits {
+    text-align: center;
+    padding: 2rem;
+}
+
+#benefits img {
+    width: 100%;
+    max-width: 400px; /* Same size as About section image */
+    height: auto;
+}
+
+/* Contact Section Styles */
+#contact {
+    text-align: center;
+    padding: 2rem;
+}
+
+#contact img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+#contact form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.social-icons a {
+    color: white;
+    margin: 0 0.5rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
